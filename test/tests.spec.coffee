@@ -1,7 +1,3 @@
-
 describe "mocha", ->
-    it "works"
+    it "works", -> true
 
-
-decribe "royalobar", ->
-    it "reply /"
