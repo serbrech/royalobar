@@ -1,4 +1,4 @@
-{ 
+{
   "name": "royalobar",
   "version": "0.0.1",
   "dependencies": {
@@ -9,5 +9,12 @@
     "connect-assets": "*",
     "stylus": "*",
     "bootstrap-stylus": "*"
-  } 
+  },
+  "subdomain": "royalobar",
+  "scripts": {
+    "start": "coffee app.coffee"
+  },
+  "engines": {
+    "node": "0.6.x"
+  }
 }
