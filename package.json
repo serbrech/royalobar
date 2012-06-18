@@ -1,6 +1,9 @@
 {
   "name": "royalobar",
-  "version": "0.0.1-4",
+  "domains": [
+    "royalobar.fr"
+  ],
+  "version": "0.0.1-6",
   "dependencies": {
     "mocha": ">=1.1.0",
     "should": "*",
