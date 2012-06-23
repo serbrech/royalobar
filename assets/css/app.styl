@@ -3,29 +3,40 @@
 
 // colors : http://www.colourlovers.com/palette/128986/Cerveza!
 
-headingsColor = #F76F05
 headingsFontFamily = 'PacificoRegular'
-backgroundColor = #F0F0C0
-headerColor = #FFD600
+
+lightColor = #F0F0C0
+darkColor = #8D5103
+strongAccent = #F76F05
+mediumAccent = #F0A800
+lightAccent = #FFD600
 
 body
-  background backgroundColor
+  background lightColor
 
 .container
-  margin-right auto
-  margin-left auto
+  margin 0 auto
+  width 960px
   clearfix()
 
 .header
   height 30px
-  background headerColor
+  background lightAccent
+  #social
+    float right
+    margin-top 4px
+    width 130px
 
 h1.huge
   text-align center
-  margin-top: 200px
-  color headingsColor
+  margin 40px auto
+  color strongAccent
   font-size 100px
   line-height 100px
   font-weight lighter
   span.registered
-    font-size 19px 
+    font-size 19px
+
+#twitter
+  width 250px
+  margin 0 auto
