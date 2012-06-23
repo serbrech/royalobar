@@ -3,7 +3,7 @@
   "domains": [
     "royalobar.fr"
   ],
-  "version": "0.0.1-7",
+  "version": "0.0.1-13",
   "dependencies": {
     "mocha": ">=1.1.0",
     "should": "*",
@@ -11,7 +11,8 @@
     "jade": "*",
     "connect": "2.3.3",
     "connect-assets": "*",
-    "stylus": "0.27.1"
+    "stylus": "0.27.1",
+    "nconf" : "0.6.0"
   },
   "subdomain": "royalobar",
   "scripts": {

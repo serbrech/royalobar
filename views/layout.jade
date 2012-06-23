@@ -1,11 +1,14 @@
 !!! 5
-html
+html(xmlns:og="http://ogp.me/ns#"
+     xmlns:fb="https://www.facebook.com/2008/fbml")
   head
     // CSS
+    include meta
+    title Royalobar
     != css('app')
   body
     block header
     block content
       h1 Hello from layout
     block footer
-    include facebook.html
+    include facebook
