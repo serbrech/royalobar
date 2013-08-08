@@ -5,6 +5,7 @@
   ],
   "version": "0.0.1-13",
   "dependencies": {
+    "coffee-script": "*",
     "mocha": ">=1.1.0",
     "should": "*",
     "express": "*",
@@ -15,9 +16,6 @@
     "nconf" : "0.6.0"
   },
   "subdomain": "royalobar",
-  "scripts": {
-    "start": "coffee app.coffee"
-  },
   "engines": {
     "node": "0.6.x"
   }
