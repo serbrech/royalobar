@@ -2,7 +2,7 @@
 var coffee = require('coffee-script');
 
 // Include our application file
-var app = require('./app.coffee');
+var royalobar = require('./app.coffee');
 
 // Start the server
-app.application.listen(process.env.port);
+royalobar.app.listen(process.env.port || 3000);

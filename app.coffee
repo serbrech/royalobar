@@ -11,7 +11,7 @@ nconf.file { file: 'config.json' }
 console.log nconf.get 'facebook'
 
 
-exports.application = app = express.createServer()
+exports.app = app = express.createServer()
 app.configure ->
     app.use assets()
     app.use connect.static('./public')

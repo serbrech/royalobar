@@ -1,7 +1,5 @@
 nconf = require 'nconf'
 
 module.exports = (app) ->
-
-  app.helpers
-    facebook_app_id: nconf.get 'facebook'
-    nconf: nconf
+  app.locals.facebook_app_id = nconf.get 'facebook'
+  app.locals.nconf = nconf
