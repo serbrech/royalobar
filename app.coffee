@@ -6,10 +6,9 @@ nconf = require 'nconf'
 helper = require './helper'
 
 nconf.env().argv()
-nconf.file { file: 'config.json' }
+nconf.file { file: './config.dev.json' }
 
 console.log nconf.get 'facebook'
-
 
 exports.app = app = express.createServer()
 app.configure ->
